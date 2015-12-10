@@ -1,0 +1,3254 @@
+{
+  "description":null,
+  "parentClass":"CoreShop\\Model\\Order",
+  "allowInherit":false,
+  "allowVariants":false,
+  "showVariants":false,
+  "layoutDefinitions":{
+    "fieldtype":"panel",
+    "labelWidth":100,
+    "layout":null,
+    "name":"pimcore_root",
+    "type":null,
+    "region":null,
+    "title":null,
+    "width":null,
+    "height":null,
+    "collapsible":null,
+    "collapsed":null,
+    "bodyStyle":null,
+    "datatype":"layout",
+    "permissions":null,
+    "childs":[
+      {
+        "fieldtype":"panel",
+        "labelWidth":100,
+        "layout":null,
+        "name":"Layout",
+        "type":null,
+        "region":null,
+        "title":null,
+        "width":null,
+        "height":null,
+        "collapsible":false,
+        "collapsed":null,
+        "bodyStyle":null,
+        "datatype":"layout",
+        "permissions":null,
+        "childs":[
+          {
+            "fieldtype":"date",
+            "queryColumnType":"bigint(20)",
+            "columnType":"bigint(20)",
+            "phpdocType":"\\Pimcore\\Date",
+            "defaultValue":null,
+            "useCurrentDate":false,
+            "name":"orderDate",
+            "title":"Order Date",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"language",
+            "onlySystemLanguages":false,
+            "options":[
+              {
+                "key":"Afar",
+                "value":"aa"
+              },
+              {
+                "key":"Afar (Dschibuti)",
+                "value":"aa_DJ"
+              },
+              {
+                "key":"Afar (Eritrea)",
+                "value":"aa_ER"
+              },
+              {
+                "key":"Afar (\u00c4thiopien)",
+                "value":"aa_ET"
+              },
+              {
+                "key":"Afrikaans",
+                "value":"af"
+              },
+              {
+                "key":"Afrikaans (Namibia)",
+                "value":"af_NA"
+              },
+              {
+                "key":"Afrikaans (S\u00fcdafrika)",
+                "value":"af_ZA"
+              },
+              {
+                "key":"Aghem",
+                "value":"agq"
+              },
+              {
+                "key":"Aghem (Kamerun)",
+                "value":"agq_CM"
+              },
+              {
+                "key":"Akan",
+                "value":"ak"
+              },
+              {
+                "key":"Akan (Ghana)",
+                "value":"ak_GH"
+              },
+              {
+                "key":"Albanisch",
+                "value":"sq"
+              },
+              {
+                "key":"Albanisch (Albanien)",
+                "value":"sq_AL"
+              },
+              {
+                "key":"Albanisch (Kosovo)",
+                "value":"sq_XK"
+              },
+              {
+                "key":"Albanisch (Mazedonien)",
+                "value":"sq_MK"
+              },
+              {
+                "key":"Amerikanisches Englisch",
+                "value":"en_US"
+              },
+              {
+                "key":"Amharisch",
+                "value":"am"
+              },
+              {
+                "key":"Amharisch (\u00c4thiopien)",
+                "value":"am_ET"
+              },
+              {
+                "key":"Arabisch",
+                "value":"ar"
+              },
+              {
+                "key":"Arabisch (Algerien)",
+                "value":"ar_DZ"
+              },
+              {
+                "key":"Arabisch (Bahrain)",
+                "value":"ar_BH"
+              },
+              {
+                "key":"Arabisch (Dschibuti)",
+                "value":"ar_DJ"
+              },
+              {
+                "key":"Arabisch (Eritrea)",
+                "value":"ar_ER"
+              },
+              {
+                "key":"Arabisch (Irak)",
+                "value":"ar_IQ"
+              },
+              {
+                "key":"Arabisch (Israel)",
+                "value":"ar_IL"
+              },
+              {
+                "key":"Arabisch (Jemen)",
+                "value":"ar_YE"
+              },
+              {
+                "key":"Arabisch (Jordanien)",
+                "value":"ar_JO"
+              },
+              {
+                "key":"Arabisch (Katar)",
+                "value":"ar_QA"
+              },
+              {
+                "key":"Arabisch (Komoren)",
+                "value":"ar_KM"
+              },
+              {
+                "key":"Arabisch (Kuwait)",
+                "value":"ar_KW"
+              },
+              {
+                "key":"Arabisch (Libanon)",
+                "value":"ar_LB"
+              },
+              {
+                "key":"Arabisch (Libyen)",
+                "value":"ar_LY"
+              },
+              {
+                "key":"Arabisch (Marokko)",
+                "value":"ar_MA"
+              },
+              {
+                "key":"Arabisch (Mauretanien)",
+                "value":"ar_MR"
+              },
+              {
+                "key":"Arabisch (Oman)",
+                "value":"ar_OM"
+              },
+              {
+                "key":"Arabisch (Pal\u00e4stinensische Autonomiegebiete)",
+                "value":"ar_PS"
+              },
+              {
+                "key":"Arabisch (Saudi-Arabien)",
+                "value":"ar_SA"
+              },
+              {
+                "key":"Arabisch (Somalia)",
+                "value":"ar_SO"
+              },
+              {
+                "key":"Arabisch (Sudan)",
+                "value":"ar_SD"
+              },
+              {
+                "key":"Arabisch (Syrien)",
+                "value":"ar_SY"
+              },
+              {
+                "key":"Arabisch (S\u00fcdsudan)",
+                "value":"ar_SS"
+              },
+              {
+                "key":"Arabisch (Tschad)",
+                "value":"ar_TD"
+              },
+              {
+                "key":"Arabisch (Tunesien)",
+                "value":"ar_TN"
+              },
+              {
+                "key":"Arabisch (Vereinigte Arabische Emirate)",
+                "value":"ar_AE"
+              },
+              {
+                "key":"Arabisch (Westsahara)",
+                "value":"ar_EH"
+              },
+              {
+                "key":"Arabisch (\u00c4gypten)",
+                "value":"ar_EG"
+              },
+              {
+                "key":"Armenisch",
+                "value":"hy"
+              },
+              {
+                "key":"Armenisch (Armenien)",
+                "value":"hy_AM"
+              },
+              {
+                "key":"Aserbaidschanisch",
+                "value":"az"
+              },
+              {
+                "key":"Aserbaidschanisch (Aserbaidschan)",
+                "value":"az_Cyrl_AZ"
+              },
+              {
+                "key":"Aserbaidschanisch (Aserbaidschan)",
+                "value":"az_Latn_AZ"
+              },
+              {
+                "key":"Assamesisch",
+                "value":"as"
+              },
+              {
+                "key":"Assamesisch (Indien)",
+                "value":"as_IN"
+              },
+              {
+                "key":"Asturianisch",
+                "value":"ast"
+              },
+              {
+                "key":"Asturianisch (Spanien)",
+                "value":"ast_ES"
+              },
+              {
+                "key":"Australisches Englisch",
+                "value":"en_AU"
+              },
+              {
+                "key":"Bafia",
+                "value":"ksf"
+              },
+              {
+                "key":"Bafia (Kamerun)",
+                "value":"ksf_CM"
+              },
+              {
+                "key":"Bambara-Sprache",
+                "value":"bm"
+              },
+              {
+                "key":"Bambara-Sprache (Mali)",
+                "value":"bm_ML"
+              },
+              {
+                "key":"Basaa-Sprache",
+                "value":"bas"
+              },
+              {
+                "key":"Basaa-Sprache (Kamerun)",
+                "value":"bas_CM"
+              },
+              {
+                "key":"Baskisch",
+                "value":"eu"
+              },
+              {
+                "key":"Baskisch (Spanien)",
+                "value":"eu_ES"
+              },
+              {
+                "key":"Bemba-Sprache",
+                "value":"bem"
+              },
+              {
+                "key":"Bemba-Sprache (Sambia)",
+                "value":"bem_ZM"
+              },
+              {
+                "key":"Bena",
+                "value":"bez"
+              },
+              {
+                "key":"Bena (Tansania)",
+                "value":"bez_TZ"
+              },
+              {
+                "key":"Bengalisch",
+                "value":"bn"
+              },
+              {
+                "key":"Bengalisch (Bangladesch)",
+                "value":"bn_BD"
+              },
+              {
+                "key":"Bengalisch (Indien)",
+                "value":"bn_IN"
+              },
+              {
+                "key":"Bhutanisch",
+                "value":"dz"
+              },
+              {
+                "key":"Bhutanisch (Bhutan)",
+                "value":"dz_BT"
+              },
+              {
+                "key":"Birmanisch",
+                "value":"my"
+              },
+              {
+                "key":"Birmanisch (Myanmar)",
+                "value":"my_MM"
+              },
+              {
+                "key":"Blin",
+                "value":"byn"
+              },
+              {
+                "key":"Blin (Eritrea)",
+                "value":"byn_ER"
+              },
+              {
+                "key":"Bodo",
+                "value":"brx"
+              },
+              {
+                "key":"Bodo (Indien)",
+                "value":"brx_IN"
+              },
+              {
+                "key":"Bosnisch",
+                "value":"bs"
+              },
+              {
+                "key":"Bosnisch (Bosnien und Herzegowina)",
+                "value":"bs_Latn_BA"
+              },
+              {
+                "key":"Bosnisch (Bosnien und Herzegowina)",
+                "value":"bs_Cyrl_BA"
+              },
+              {
+                "key":"Brasilianisches Portugiesisch",
+                "value":"pt_BR"
+              },
+              {
+                "key":"Bretonisch",
+                "value":"br"
+              },
+              {
+                "key":"Bretonisch (Frankreich)",
+                "value":"br_FR"
+              },
+              {
+                "key":"Britisches Englisch",
+                "value":"en_GB"
+              },
+              {
+                "key":"Bulgarisch",
+                "value":"bg"
+              },
+              {
+                "key":"Bulgarisch (Bulgarien)",
+                "value":"bg_BG"
+              },
+              {
+                "key":"Cherokee",
+                "value":"chr"
+              },
+              {
+                "key":"Cherokee (Vereinigte Staaten)",
+                "value":"chr_US"
+              },
+              {
+                "key":"Chiga",
+                "value":"cgg"
+              },
+              {
+                "key":"Chiga (Uganda)",
+                "value":"cgg_UG"
+              },
+              {
+                "key":"Chinesisch",
+                "value":"zh"
+              },
+              {
+                "key":"Chinesisch (China)",
+                "value":"zh_Hans_CN"
+              },
+              {
+                "key":"Chinesisch (Singapur)",
+                "value":"zh_Hans_SG"
+              },
+              {
+                "key":"Chinesisch (Sonderverwaltungszone Hongkong)",
+                "value":"zh_Hant_HK"
+              },
+              {
+                "key":"Chinesisch (Sonderverwaltungszone Hongkong)",
+                "value":"zh_Hans_HK"
+              },
+              {
+                "key":"Chinesisch (Sonderverwaltungszone Macao)",
+                "value":"zh_Hans_MO"
+              },
+              {
+                "key":"Chinesisch (Sonderverwaltungszone Macao)",
+                "value":"zh_Hant_MO"
+              },
+              {
+                "key":"Chinesisch (Taiwan)",
+                "value":"zh_Hant_TW"
+              },
+              {
+                "key":"Chinesisch (traditionell)",
+                "value":"zh_Hant"
+              },
+              {
+                "key":"Chinesisch (vereinfacht)",
+                "value":"zh_Hans"
+              },
+              {
+                "key":"Deutsch",
+                "value":"de"
+              },
+              {
+                "key":"Deutsch (Belgien)",
+                "value":"de_BE"
+              },
+              {
+                "key":"Deutsch (Deutschland)",
+                "value":"de_DE"
+              },
+              {
+                "key":"Deutsch (Liechtenstein)",
+                "value":"de_LI"
+              },
+              {
+                "key":"Deutsch (Luxemburg)",
+                "value":"de_LU"
+              },
+              {
+                "key":"Diola",
+                "value":"dyo"
+              },
+              {
+                "key":"Diola (Senegal)",
+                "value":"dyo_SN"
+              },
+              {
+                "key":"Duala",
+                "value":"dua"
+              },
+              {
+                "key":"Duala (Kamerun)",
+                "value":"dua_CM"
+              },
+              {
+                "key":"D\u00e4nisch",
+                "value":"da"
+              },
+              {
+                "key":"D\u00e4nisch (D\u00e4nemark)",
+                "value":"da_DK"
+              },
+              {
+                "key":"D\u00e4nisch (Gr\u00f6nland)",
+                "value":"da_GL"
+              },
+              {
+                "key":"Englisch",
+                "value":"en"
+              },
+              {
+                "key":"Englisch (Amerikanisch-Ozeanien)",
+                "value":"en_UM"
+              },
+              {
+                "key":"Englisch (Amerikanisch-Samoa)",
+                "value":"en_AS"
+              },
+              {
+                "key":"Englisch (Amerikanische Jungferninseln)",
+                "value":"en_VI"
+              },
+              {
+                "key":"Englisch (Anguilla)",
+                "value":"en_AI"
+              },
+              {
+                "key":"Englisch (Antigua und Barbuda)",
+                "value":"en_AG"
+              },
+              {
+                "key":"Englisch (Bahamas)",
+                "value":"en_BS"
+              },
+              {
+                "key":"Englisch (Barbados)",
+                "value":"en_BB"
+              },
+              {
+                "key":"Englisch (Belgien)",
+                "value":"en_BE"
+              },
+              {
+                "key":"Englisch (Belize)",
+                "value":"en_BZ"
+              },
+              {
+                "key":"Englisch (Bermuda)",
+                "value":"en_BM"
+              },
+              {
+                "key":"Englisch (Botsuana)",
+                "value":"en_BW"
+              },
+              {
+                "key":"Englisch (Britische Jungferninseln)",
+                "value":"en_VG"
+              },
+              {
+                "key":"Englisch (Britisches Territorium im Indischen Ozean)",
+                "value":"en_IO"
+              },
+              {
+                "key":"Englisch (Cookinseln)",
+                "value":"en_CK"
+              },
+              {
+                "key":"Englisch (Diego Garcia)",
+                "value":"en_DG"
+              },
+              {
+                "key":"Englisch (Dominica)",
+                "value":"en_DM"
+              },
+              {
+                "key":"Englisch (Eritrea)",
+                "value":"en_ER"
+              },
+              {
+                "key":"Englisch (Europa)",
+                "value":"en_150"
+              },
+              {
+                "key":"Englisch (Falklandinseln)",
+                "value":"en_FK"
+              },
+              {
+                "key":"Englisch (Fidschi)",
+                "value":"en_FJ"
+              },
+              {
+                "key":"Englisch (Gambia)",
+                "value":"en_GM"
+              },
+              {
+                "key":"Englisch (Ghana)",
+                "value":"en_GH"
+              },
+              {
+                "key":"Englisch (Gibraltar)",
+                "value":"en_GI"
+              },
+              {
+                "key":"Englisch (Grenada)",
+                "value":"en_GD"
+              },
+              {
+                "key":"Englisch (Guam)",
+                "value":"en_GU"
+              },
+              {
+                "key":"Englisch (Guernsey)",
+                "value":"en_GG"
+              },
+              {
+                "key":"Englisch (Guyana)",
+                "value":"en_GY"
+              },
+              {
+                "key":"Englisch (Indien)",
+                "value":"en_IN"
+              },
+              {
+                "key":"Englisch (Irland)",
+                "value":"en_IE"
+              },
+              {
+                "key":"Englisch (Isle of Man)",
+                "value":"en_IM"
+              },
+              {
+                "key":"Englisch (Jamaika)",
+                "value":"en_JM"
+              },
+              {
+                "key":"Englisch (Jersey)",
+                "value":"en_JE"
+              },
+              {
+                "key":"Englisch (Kaimaninseln)",
+                "value":"en_KY"
+              },
+              {
+                "key":"Englisch (Kamerun)",
+                "value":"en_CM"
+              },
+              {
+                "key":"Englisch (Kenia)",
+                "value":"en_KE"
+              },
+              {
+                "key":"Englisch (Kiribati)",
+                "value":"en_KI"
+              },
+              {
+                "key":"Englisch (Kokosinseln)",
+                "value":"en_CC"
+              },
+              {
+                "key":"Englisch (Lesotho)",
+                "value":"en_LS"
+              },
+              {
+                "key":"Englisch (Liberia)",
+                "value":"en_LR"
+              },
+              {
+                "key":"Englisch (Madagaskar)",
+                "value":"en_MG"
+              },
+              {
+                "key":"Englisch (Malawi)",
+                "value":"en_MW"
+              },
+              {
+                "key":"Englisch (Malta)",
+                "value":"en_MT"
+              },
+              {
+                "key":"Englisch (Marshallinseln)",
+                "value":"en_MH"
+              },
+              {
+                "key":"Englisch (Mauritius)",
+                "value":"en_MU"
+              },
+              {
+                "key":"Englisch (Mikronesien)",
+                "value":"en_FM"
+              },
+              {
+                "key":"Englisch (Montserrat)",
+                "value":"en_MS"
+              },
+              {
+                "key":"Englisch (Namibia)",
+                "value":"en_NA"
+              },
+              {
+                "key":"Englisch (Nauru)",
+                "value":"en_NR"
+              },
+              {
+                "key":"Englisch (Neuseeland)",
+                "value":"en_NZ"
+              },
+              {
+                "key":"Englisch (Nigeria)",
+                "value":"en_NG"
+              },
+              {
+                "key":"Englisch (Niue)",
+                "value":"en_NU"
+              },
+              {
+                "key":"Englisch (Norfolkinsel)",
+                "value":"en_NF"
+              },
+              {
+                "key":"Englisch (N\u00f6rdliche Marianen)",
+                "value":"en_MP"
+              },
+              {
+                "key":"Englisch (Pakistan)",
+                "value":"en_PK"
+              },
+              {
+                "key":"Englisch (Palau)",
+                "value":"en_PW"
+              },
+              {
+                "key":"Englisch (Papua-Neuguinea)",
+                "value":"en_PG"
+              },
+              {
+                "key":"Englisch (Philippinen)",
+                "value":"en_PH"
+              },
+              {
+                "key":"Englisch (Pitcairninseln)",
+                "value":"en_PN"
+              },
+              {
+                "key":"Englisch (Puerto Rico)",
+                "value":"en_PR"
+              },
+              {
+                "key":"Englisch (Ruanda)",
+                "value":"en_RW"
+              },
+              {
+                "key":"Englisch (Salomonen)",
+                "value":"en_SB"
+              },
+              {
+                "key":"Englisch (Sambia)",
+                "value":"en_ZM"
+              },
+              {
+                "key":"Englisch (Samoa)",
+                "value":"en_WS"
+              },
+              {
+                "key":"Englisch (Seychellen)",
+                "value":"en_SC"
+              },
+              {
+                "key":"Englisch (Sierra Leone)",
+                "value":"en_SL"
+              },
+              {
+                "key":"Englisch (Simbabwe)",
+                "value":"en_ZW"
+              },
+              {
+                "key":"Englisch (Singapur)",
+                "value":"en_SG"
+              },
+              {
+                "key":"Englisch (Sint Maarten)",
+                "value":"en_SX"
+              },
+              {
+                "key":"Englisch (Sonderverwaltungszone Hongkong)",
+                "value":"en_HK"
+              },
+              {
+                "key":"Englisch (Sonderverwaltungszone Macao)",
+                "value":"en_MO"
+              },
+              {
+                "key":"Englisch (St. Helena)",
+                "value":"en_SH"
+              },
+              {
+                "key":"Englisch (St. Kitts und Nevis)",
+                "value":"en_KN"
+              },
+              {
+                "key":"Englisch (St. Lucia)",
+                "value":"en_LC"
+              },
+              {
+                "key":"Englisch (St. Vincent und die Grenadinen)",
+                "value":"en_VC"
+              },
+              {
+                "key":"Englisch (Sudan)",
+                "value":"en_SD"
+              },
+              {
+                "key":"Englisch (Swasiland)",
+                "value":"en_SZ"
+              },
+              {
+                "key":"Englisch (S\u00fcdafrika)",
+                "value":"en_ZA"
+              },
+              {
+                "key":"Englisch (S\u00fcdsudan)",
+                "value":"en_SS"
+              },
+              {
+                "key":"Englisch (Tansania)",
+                "value":"en_TZ"
+              },
+              {
+                "key":"Englisch (Tokelau)",
+                "value":"en_TK"
+              },
+              {
+                "key":"Englisch (Tonga)",
+                "value":"en_TO"
+              },
+              {
+                "key":"Englisch (Trinidad und Tobago)",
+                "value":"en_TT"
+              },
+              {
+                "key":"Englisch (Turks- und Caicosinseln)",
+                "value":"en_TC"
+              },
+              {
+                "key":"Englisch (Tuvalu)",
+                "value":"en_TV"
+              },
+              {
+                "key":"Englisch (Uganda)",
+                "value":"en_UG"
+              },
+              {
+                "key":"Englisch (Vanuatu)",
+                "value":"en_VU"
+              },
+              {
+                "key":"Englisch (Vereinigte Staaten)",
+                "value":"en_Dsrt_US"
+              },
+              {
+                "key":"Englisch (Vereinigte Staaten)",
+                "value":"en_US_POSIX"
+              },
+              {
+                "key":"Englisch (Weihnachtsinsel)",
+                "value":"en_CX"
+              },
+              {
+                "key":"Englisch (Welt)",
+                "value":"en_001"
+              },
+              {
+                "key":"Esperanto",
+                "value":"eo"
+              },
+              {
+                "key":"Esperanto (Welt)",
+                "value":"eo_001"
+              },
+              {
+                "key":"Estnisch",
+                "value":"et"
+              },
+              {
+                "key":"Estnisch (Estland)",
+                "value":"et_EE"
+              },
+              {
+                "key":"Europ\u00e4isches Portugiesisch",
+                "value":"pt_PT"
+              },
+              {
+                "key":"Europ\u00e4isches Spanisch",
+                "value":"es_ES"
+              },
+              {
+                "key":"Ewe-Sprache",
+                "value":"ee"
+              },
+              {
+                "key":"Ewe-Sprache (Ghana)",
+                "value":"ee_GH"
+              },
+              {
+                "key":"Ewe-Sprache (Togo)",
+                "value":"ee_TG"
+              },
+              {
+                "key":"Ewondo",
+                "value":"ewo"
+              },
+              {
+                "key":"Ewondo (Kamerun)",
+                "value":"ewo_CM"
+              },
+              {
+                "key":"Filipino",
+                "value":"fil"
+              },
+              {
+                "key":"Filipino (Philippinen)",
+                "value":"fil_PH"
+              },
+              {
+                "key":"Finnisch",
+                "value":"fi"
+              },
+              {
+                "key":"Finnisch (Finnland)",
+                "value":"fi_FI"
+              },
+              {
+                "key":"Fl\u00e4misch",
+                "value":"nl_BE"
+              },
+              {
+                "key":"Franz\u00f6sisch",
+                "value":"fr"
+              },
+              {
+                "key":"Franz\u00f6sisch (Algerien)",
+                "value":"fr_DZ"
+              },
+              {
+                "key":"Franz\u00f6sisch (Belgien)",
+                "value":"fr_BE"
+              },
+              {
+                "key":"Franz\u00f6sisch (Benin)",
+                "value":"fr_BJ"
+              },
+              {
+                "key":"Franz\u00f6sisch (Burkina Faso)",
+                "value":"fr_BF"
+              },
+              {
+                "key":"Franz\u00f6sisch (Burundi)",
+                "value":"fr_BI"
+              },
+              {
+                "key":"Franz\u00f6sisch (C\u00f4te d\u2019Ivoire)",
+                "value":"fr_CI"
+              },
+              {
+                "key":"Franz\u00f6sisch (Dschibuti)",
+                "value":"fr_DJ"
+              },
+              {
+                "key":"Franz\u00f6sisch (Frankreich)",
+                "value":"fr_FR"
+              },
+              {
+                "key":"Franz\u00f6sisch (Franz\u00f6sisch-Guayana)",
+                "value":"fr_GF"
+              },
+              {
+                "key":"Franz\u00f6sisch (Franz\u00f6sisch-Polynesien)",
+                "value":"fr_PF"
+              },
+              {
+                "key":"Franz\u00f6sisch (Gabun)",
+                "value":"fr_GA"
+              },
+              {
+                "key":"Franz\u00f6sisch (Guadeloupe)",
+                "value":"fr_GP"
+              },
+              {
+                "key":"Franz\u00f6sisch (Guinea)",
+                "value":"fr_GN"
+              },
+              {
+                "key":"Franz\u00f6sisch (Haiti)",
+                "value":"fr_HT"
+              },
+              {
+                "key":"Franz\u00f6sisch (Kamerun)",
+                "value":"fr_CM"
+              },
+              {
+                "key":"Franz\u00f6sisch (Komoren)",
+                "value":"fr_KM"
+              },
+              {
+                "key":"Franz\u00f6sisch (Kongo-Brazzaville)",
+                "value":"fr_CG"
+              },
+              {
+                "key":"Franz\u00f6sisch (Kongo-Kinshasa)",
+                "value":"fr_CD"
+              },
+              {
+                "key":"Franz\u00f6sisch (Luxemburg)",
+                "value":"fr_LU"
+              },
+              {
+                "key":"Franz\u00f6sisch (Madagaskar)",
+                "value":"fr_MG"
+              },
+              {
+                "key":"Franz\u00f6sisch (Mali)",
+                "value":"fr_ML"
+              },
+              {
+                "key":"Franz\u00f6sisch (Marokko)",
+                "value":"fr_MA"
+              },
+              {
+                "key":"Franz\u00f6sisch (Martinique)",
+                "value":"fr_MQ"
+              },
+              {
+                "key":"Franz\u00f6sisch (Mauretanien)",
+                "value":"fr_MR"
+              },
+              {
+                "key":"Franz\u00f6sisch (Mauritius)",
+                "value":"fr_MU"
+              },
+              {
+                "key":"Franz\u00f6sisch (Mayotte)",
+                "value":"fr_YT"
+              },
+              {
+                "key":"Franz\u00f6sisch (Monaco)",
+                "value":"fr_MC"
+              },
+              {
+                "key":"Franz\u00f6sisch (Neukaledonien)",
+                "value":"fr_NC"
+              },
+              {
+                "key":"Franz\u00f6sisch (Niger)",
+                "value":"fr_NE"
+              },
+              {
+                "key":"Franz\u00f6sisch (Ruanda)",
+                "value":"fr_RW"
+              },
+              {
+                "key":"Franz\u00f6sisch (R\u00e9union)",
+                "value":"fr_RE"
+              },
+              {
+                "key":"Franz\u00f6sisch (Senegal)",
+                "value":"fr_SN"
+              },
+              {
+                "key":"Franz\u00f6sisch (Seychellen)",
+                "value":"fr_SC"
+              },
+              {
+                "key":"Franz\u00f6sisch (St. Barth\u00e9lemy)",
+                "value":"fr_BL"
+              },
+              {
+                "key":"Franz\u00f6sisch (St. Martin)",
+                "value":"fr_MF"
+              },
+              {
+                "key":"Franz\u00f6sisch (St. Pierre und Miquelon)",
+                "value":"fr_PM"
+              },
+              {
+                "key":"Franz\u00f6sisch (Syrien)",
+                "value":"fr_SY"
+              },
+              {
+                "key":"Franz\u00f6sisch (Togo)",
+                "value":"fr_TG"
+              },
+              {
+                "key":"Franz\u00f6sisch (Tschad)",
+                "value":"fr_TD"
+              },
+              {
+                "key":"Franz\u00f6sisch (Tunesien)",
+                "value":"fr_TN"
+              },
+              {
+                "key":"Franz\u00f6sisch (Vanuatu)",
+                "value":"fr_VU"
+              },
+              {
+                "key":"Franz\u00f6sisch (Wallis und Futuna)",
+                "value":"fr_WF"
+              },
+              {
+                "key":"Franz\u00f6sisch (Zentralafrikanische Republik)",
+                "value":"fr_CF"
+              },
+              {
+                "key":"Franz\u00f6sisch (\u00c4quatorialguinea)",
+                "value":"fr_GQ"
+              },
+              {
+                "key":"Friulisch",
+                "value":"fur"
+              },
+              {
+                "key":"Friulisch (Italien)",
+                "value":"fur_IT"
+              },
+              {
+                "key":"Ful",
+                "value":"ff"
+              },
+              {
+                "key":"Ful (Guinea)",
+                "value":"ff_GN"
+              },
+              {
+                "key":"Ful (Kamerun)",
+                "value":"ff_CM"
+              },
+              {
+                "key":"Ful (Mauretanien)",
+                "value":"ff_MR"
+              },
+              {
+                "key":"Ful (Senegal)",
+                "value":"ff_SN"
+              },
+              {
+                "key":"F\u00e4r\u00f6isch",
+                "value":"fo"
+              },
+              {
+                "key":"F\u00e4r\u00f6isch (F\u00e4r\u00f6er)",
+                "value":"fo_FO"
+              },
+              {
+                "key":"Galizisch",
+                "value":"gl"
+              },
+              {
+                "key":"Galizisch (Spanien)",
+                "value":"gl_ES"
+              },
+              {
+                "key":"Ganda-Sprache",
+                "value":"lg"
+              },
+              {
+                "key":"Ganda-Sprache (Uganda)",
+                "value":"lg_UG"
+              },
+              {
+                "key":"Georgisch",
+                "value":"ka"
+              },
+              {
+                "key":"Georgisch (Georgien)",
+                "value":"ka_GE"
+              },
+              {
+                "key":"Griechisch",
+                "value":"el"
+              },
+              {
+                "key":"Griechisch (Griechenland)",
+                "value":"el_GR"
+              },
+              {
+                "key":"Griechisch (Zypern)",
+                "value":"el_CY"
+              },
+              {
+                "key":"Gr\u00f6nl\u00e4ndisch",
+                "value":"kl"
+              },
+              {
+                "key":"Gr\u00f6nl\u00e4ndisch (Gr\u00f6nland)",
+                "value":"kl_GL"
+              },
+              {
+                "key":"Gujarati",
+                "value":"gu"
+              },
+              {
+                "key":"Gujarati (Indien)",
+                "value":"gu_IN"
+              },
+              {
+                "key":"Gusii",
+                "value":"guz"
+              },
+              {
+                "key":"Gusii (Kenia)",
+                "value":"guz_KE"
+              },
+              {
+                "key":"Hausa",
+                "value":"ha"
+              },
+              {
+                "key":"Hausa (Ghana)",
+                "value":"ha_Latn_GH"
+              },
+              {
+                "key":"Hausa (Niger)",
+                "value":"ha_Latn_NE"
+              },
+              {
+                "key":"Hausa (Nigeria)",
+                "value":"ha_Latn_NG"
+              },
+              {
+                "key":"Hawaiisch",
+                "value":"haw"
+              },
+              {
+                "key":"Hawaiisch (Vereinigte Staaten)",
+                "value":"haw_US"
+              },
+              {
+                "key":"Hebr\u00e4isch",
+                "value":"he"
+              },
+              {
+                "key":"Hebr\u00e4isch (Israel)",
+                "value":"he_IL"
+              },
+              {
+                "key":"Hindi",
+                "value":"hi"
+              },
+              {
+                "key":"Hindi (Indien)",
+                "value":"hi_IN"
+              },
+              {
+                "key":"Igbo-Sprache",
+                "value":"ig"
+              },
+              {
+                "key":"Igbo-Sprache (Nigeria)",
+                "value":"ig_NG"
+              },
+              {
+                "key":"Indonesisch",
+                "value":"id"
+              },
+              {
+                "key":"Indonesisch (Indonesien)",
+                "value":"id_ID"
+              },
+              {
+                "key":"Interlingua",
+                "value":"ia"
+              },
+              {
+                "key":"Interlingua (Frankreich)",
+                "value":"ia_FR"
+              },
+              {
+                "key":"Irisch",
+                "value":"ga"
+              },
+              {
+                "key":"Irisch (Irland)",
+                "value":"ga_IE"
+              },
+              {
+                "key":"Isl\u00e4ndisch",
+                "value":"is"
+              },
+              {
+                "key":"Isl\u00e4ndisch (Island)",
+                "value":"is_IS"
+              },
+              {
+                "key":"Italienisch",
+                "value":"it"
+              },
+              {
+                "key":"Italienisch (Italien)",
+                "value":"it_IT"
+              },
+              {
+                "key":"Italienisch (San Marino)",
+                "value":"it_SM"
+              },
+              {
+                "key":"Italienisch (Schweiz)",
+                "value":"it_CH"
+              },
+              {
+                "key":"Jakutisch",
+                "value":"sah"
+              },
+              {
+                "key":"Jakutisch (Russische F\u00f6deration)",
+                "value":"sah_RU"
+              },
+              {
+                "key":"Japanisch",
+                "value":"ja"
+              },
+              {
+                "key":"Japanisch (Japan)",
+                "value":"ja_JP"
+              },
+              {
+                "key":"Kabuverdianu",
+                "value":"kea"
+              },
+              {
+                "key":"Kabuverdianu (Kap Verde)",
+                "value":"kea_CV"
+              },
+              {
+                "key":"Kabylisch",
+                "value":"kab"
+              },
+              {
+                "key":"Kabylisch (Algerien)",
+                "value":"kab_DZ"
+              },
+              {
+                "key":"Kako",
+                "value":"kkj"
+              },
+              {
+                "key":"Kako (Kamerun)",
+                "value":"kkj_CM"
+              },
+              {
+                "key":"Kalenjin",
+                "value":"kln"
+              },
+              {
+                "key":"Kalenjin (Kenia)",
+                "value":"kln_KE"
+              },
+              {
+                "key":"Kamba",
+                "value":"kam"
+              },
+              {
+                "key":"Kamba (Kenia)",
+                "value":"kam_KE"
+              },
+              {
+                "key":"Kambodschanisch",
+                "value":"km"
+              },
+              {
+                "key":"Kambodschanisch (Kambodscha)",
+                "value":"km_KH"
+              },
+              {
+                "key":"Kanadisches Englisch",
+                "value":"en_CA"
+              },
+              {
+                "key":"Kanadisches Franz\u00f6sisch",
+                "value":"fr_CA"
+              },
+              {
+                "key":"Kannada",
+                "value":"kn"
+              },
+              {
+                "key":"Kannada (Indien)",
+                "value":"kn_IN"
+              },
+              {
+                "key":"Kasachisch",
+                "value":"kk"
+              },
+              {
+                "key":"Kasachisch (Kasachstan)",
+                "value":"kk_Cyrl_KZ"
+              },
+              {
+                "key":"Kaschmirisch",
+                "value":"ks"
+              },
+              {
+                "key":"Kaschmirisch (Indien)",
+                "value":"ks_Arab_IN"
+              },
+              {
+                "key":"Katalanisch",
+                "value":"ca"
+              },
+              {
+                "key":"Katalanisch (Andorra)",
+                "value":"ca_AD"
+              },
+              {
+                "key":"Katalanisch (Frankreich)",
+                "value":"ca_FR"
+              },
+              {
+                "key":"Katalanisch (Italien)",
+                "value":"ca_IT"
+              },
+              {
+                "key":"Katalanisch (Spanien)",
+                "value":"ca_ES"
+              },
+              {
+                "key":"Katalanisch (Spanien)",
+                "value":"ca_ES_VALENCIA"
+              },
+              {
+                "key":"Kiembu",
+                "value":"ebu"
+              },
+              {
+                "key":"Kiembu (Kenia)",
+                "value":"ebu_KE"
+              },
+              {
+                "key":"Kikuyu-Sprache",
+                "value":"ki"
+              },
+              {
+                "key":"Kikuyu-Sprache (Kenia)",
+                "value":"ki_KE"
+              },
+              {
+                "key":"Kirgisisch",
+                "value":"ky"
+              },
+              {
+                "key":"Kongo-Suaheli",
+                "value":"swc"
+              },
+              {
+                "key":"Kongo-Suaheli (Kongo-Kinshasa)",
+                "value":"swc_CD"
+              },
+              {
+                "key":"Konkani",
+                "value":"kok"
+              },
+              {
+                "key":"Konkani (Indien)",
+                "value":"kok_IN"
+              },
+              {
+                "key":"Koreanisch",
+                "value":"ko"
+              },
+              {
+                "key":"Koreanisch (Demokratische Volksrepublik Korea)",
+                "value":"ko_KP"
+              },
+              {
+                "key":"Koreanisch (Republik Korea)",
+                "value":"ko_KR"
+              },
+              {
+                "key":"Kornisch",
+                "value":"kw"
+              },
+              {
+                "key":"Kornisch (Vereinigtes K\u00f6nigreich)",
+                "value":"kw_GB"
+              },
+              {
+                "key":"Koyra Chiini",
+                "value":"khq"
+              },
+              {
+                "key":"Koyra Chiini (Mali)",
+                "value":"khq_ML"
+              },
+              {
+                "key":"Koyra Senni",
+                "value":"ses"
+              },
+              {
+                "key":"Koyra Senni (Mali)",
+                "value":"ses_ML"
+              },
+              {
+                "key":"Kroatisch",
+                "value":"hr"
+              },
+              {
+                "key":"Kroatisch (Bosnien und Herzegowina)",
+                "value":"hr_BA"
+              },
+              {
+                "key":"Kroatisch (Kroatien)",
+                "value":"hr_HR"
+              },
+              {
+                "key":"Kwasio",
+                "value":"nmg"
+              },
+              {
+                "key":"Kwasio (Kamerun)",
+                "value":"nmg_CM"
+              },
+              {
+                "key":"K\u00f6lsch",
+                "value":"ksh"
+              },
+              {
+                "key":"K\u00f6lsch (Deutschland)",
+                "value":"ksh_DE"
+              },
+              {
+                "key":"Lakota",
+                "value":"lkt"
+              },
+              {
+                "key":"Lakota (Vereinigte Staaten)",
+                "value":"lkt_US"
+              },
+              {
+                "key":"Langi",
+                "value":"lag"
+              },
+              {
+                "key":"Langi (Tansania)",
+                "value":"lag_TZ"
+              },
+              {
+                "key":"Laotisch",
+                "value":"lo"
+              },
+              {
+                "key":"Laotisch (Laos)",
+                "value":"lo_LA"
+              },
+              {
+                "key":"Lateinamerikanisches Spanisch",
+                "value":"es_419"
+              },
+              {
+                "key":"Lettisch",
+                "value":"lv"
+              },
+              {
+                "key":"Lettisch (Lettland)",
+                "value":"lv_LV"
+              },
+              {
+                "key":"Lingala",
+                "value":"ln"
+              },
+              {
+                "key":"Lingala (Angola)",
+                "value":"ln_AO"
+              },
+              {
+                "key":"Lingala (Kongo-Brazzaville)",
+                "value":"ln_CG"
+              },
+              {
+                "key":"Lingala (Kongo-Kinshasa)",
+                "value":"ln_CD"
+              },
+              {
+                "key":"Lingala (Zentralafrikanische Republik)",
+                "value":"ln_CF"
+              },
+              {
+                "key":"Litauisch",
+                "value":"lt"
+              },
+              {
+                "key":"Litauisch (Litauen)",
+                "value":"lt_LT"
+              },
+              {
+                "key":"Luba-Katanga",
+                "value":"lu"
+              },
+              {
+                "key":"Luba-Katanga (Kongo-Kinshasa)",
+                "value":"lu_CD"
+              },
+              {
+                "key":"Luo-Sprache",
+                "value":"luo"
+              },
+              {
+                "key":"Luo-Sprache (Kenia)",
+                "value":"luo_KE"
+              },
+              {
+                "key":"Machame",
+                "value":"jmc"
+              },
+              {
+                "key":"Machame (Tansania)",
+                "value":"jmc_TZ"
+              },
+              {
+                "key":"Makhuwa-Meetto",
+                "value":"mgh"
+              },
+              {
+                "key":"Makhuwa-Meetto (Mosambik)",
+                "value":"mgh_MZ"
+              },
+              {
+                "key":"Makonde",
+                "value":"kde"
+              },
+              {
+                "key":"Makonde (Tansania)",
+                "value":"kde_TZ"
+              },
+              {
+                "key":"Malagassi-Sprache",
+                "value":"mg"
+              },
+              {
+                "key":"Malagassi-Sprache (Madagaskar)",
+                "value":"mg_MG"
+              },
+              {
+                "key":"Malaiisch",
+                "value":"ms"
+              },
+              {
+                "key":"Malaiisch (Brunei Darussalam)",
+                "value":"ms_Latn_BN"
+              },
+              {
+                "key":"Malaiisch (Malaysia)",
+                "value":"ms_Latn_MY"
+              },
+              {
+                "key":"Malaiisch (Singapur)",
+                "value":"ms_Latn_SG"
+              },
+              {
+                "key":"Malayalam",
+                "value":"ml"
+              },
+              {
+                "key":"Malayalam (Indien)",
+                "value":"ml_IN"
+              },
+              {
+                "key":"Maltesisch",
+                "value":"mt"
+              },
+              {
+                "key":"Maltesisch (Malta)",
+                "value":"mt_MT"
+              },
+              {
+                "key":"Manx",
+                "value":"gv"
+              },
+              {
+                "key":"Manx (Isle of Man)",
+                "value":"gv_IM"
+              },
+              {
+                "key":"Marathi",
+                "value":"mr"
+              },
+              {
+                "key":"Marathi (Indien)",
+                "value":"mr_IN"
+              },
+              {
+                "key":"Massai-Sprache",
+                "value":"mas"
+              },
+              {
+                "key":"Massai-Sprache (Kenia)",
+                "value":"mas_KE"
+              },
+              {
+                "key":"Massai-Sprache (Tansania)",
+                "value":"mas_TZ"
+              },
+              {
+                "key":"Mazedonisch",
+                "value":"mk"
+              },
+              {
+                "key":"Mazedonisch (Mazedonien)",
+                "value":"mk_MK"
+              },
+              {
+                "key":"Meru",
+                "value":"mer"
+              },
+              {
+                "key":"Meru (Kenia)",
+                "value":"mer_KE"
+              },
+              {
+                "key":"Meta'",
+                "value":"mgo"
+              },
+              {
+                "key":"Meta' (Kamerun)",
+                "value":"mgo_CM"
+              },
+              {
+                "key":"Mexikanisches Spanisch",
+                "value":"es_MX"
+              },
+              {
+                "key":"Modernes Hocharabisch",
+                "value":"ar_001"
+              },
+              {
+                "key":"Moldauisch",
+                "value":"ro_MD"
+              },
+              {
+                "key":"Mongolisch",
+                "value":"mn"
+              },
+              {
+                "key":"Mongolisch (Mongolei)",
+                "value":"mn_Cyrl_MN"
+              },
+              {
+                "key":"Morisyen",
+                "value":"mfe"
+              },
+              {
+                "key":"Morisyen (Mauritius)",
+                "value":"mfe_MU"
+              },
+              {
+                "key":"Mundang",
+                "value":"mua"
+              },
+              {
+                "key":"Mundang (Kamerun)",
+                "value":"mua_CM"
+              },
+              {
+                "key":"Nama",
+                "value":"naq"
+              },
+              {
+                "key":"Nama (Namibia)",
+                "value":"naq_NA"
+              },
+              {
+                "key":"Nepalesisch",
+                "value":"ne"
+              },
+              {
+                "key":"Nepalesisch (Indien)",
+                "value":"ne_IN"
+              },
+              {
+                "key":"Nepalesisch (Nepal)",
+                "value":"ne_NP"
+              },
+              {
+                "key":"Ngiemboon",
+                "value":"nnh"
+              },
+              {
+                "key":"Ngiemboon (Kamerun)",
+                "value":"nnh_CM"
+              },
+              {
+                "key":"Ngomba",
+                "value":"jgo"
+              },
+              {
+                "key":"Ngomba (Kamerun)",
+                "value":"jgo_CM"
+              },
+              {
+                "key":"Niederl\u00e4ndisch",
+                "value":"nl"
+              },
+              {
+                "key":"Niederl\u00e4ndisch (Aruba)",
+                "value":"nl_AW"
+              },
+              {
+                "key":"Niederl\u00e4ndisch (Cura\u00e7ao)",
+                "value":"nl_CW"
+              },
+              {
+                "key":"Niederl\u00e4ndisch (Karibische Niederlande)",
+                "value":"nl_BQ"
+              },
+              {
+                "key":"Niederl\u00e4ndisch (Niederlande)",
+                "value":"nl_NL"
+              },
+              {
+                "key":"Niederl\u00e4ndisch (Sint Maarten)",
+                "value":"nl_SX"
+              },
+              {
+                "key":"Niederl\u00e4ndisch (Suriname)",
+                "value":"nl_SR"
+              },
+              {
+                "key":"Nord-Ndebele-Sprache",
+                "value":"nd"
+              },
+              {
+                "key":"Nord-Ndebele-Sprache (Simbabwe)",
+                "value":"nd_ZW"
+              },
+              {
+                "key":"Nord-Samisch",
+                "value":"se"
+              },
+              {
+                "key":"Nord-Samisch (Finnland)",
+                "value":"se_FI"
+              },
+              {
+                "key":"Nord-Samisch (Norwegen)",
+                "value":"se_NO"
+              },
+              {
+                "key":"Nord-Sotho-Sprache",
+                "value":"nso"
+              },
+              {
+                "key":"Nord-Sotho-Sprache (S\u00fcdafrika)",
+                "value":"nso_ZA"
+              },
+              {
+                "key":"Norwegisch Bokm\u00e5l",
+                "value":"nb"
+              },
+              {
+                "key":"Norwegisch Bokm\u00e5l (Norwegen)",
+                "value":"nb_NO"
+              },
+              {
+                "key":"Norwegisch Bokm\u00e5l (Svalbard und Jan Mayen)",
+                "value":"nb_SJ"
+              },
+              {
+                "key":"Norwegisch Nynorsk",
+                "value":"nn"
+              },
+              {
+                "key":"Norwegisch Nynorsk (Norwegen)",
+                "value":"nn_NO"
+              },
+              {
+                "key":"Nuer",
+                "value":"nus"
+              },
+              {
+                "key":"Nuer (Sudan)",
+                "value":"nus_SD"
+              },
+              {
+                "key":"Nyankole",
+                "value":"nyn"
+              },
+              {
+                "key":"Nyankole (Uganda)",
+                "value":"nyn_UG"
+              },
+              {
+                "key":"Olulujia",
+                "value":"luy"
+              },
+              {
+                "key":"Olulujia (Kenia)",
+                "value":"luy_KE"
+              },
+              {
+                "key":"Orija",
+                "value":"or"
+              },
+              {
+                "key":"Orija (Indien)",
+                "value":"or_IN"
+              },
+              {
+                "key":"Oromo",
+                "value":"om"
+              },
+              {
+                "key":"Oromo (Kenia)",
+                "value":"om_KE"
+              },
+              {
+                "key":"Oromo (\u00c4thiopien)",
+                "value":"om_ET"
+              },
+              {
+                "key":"Ossetisch",
+                "value":"os"
+              },
+              {
+                "key":"Ossetisch (Georgien)",
+                "value":"os_GE"
+              },
+              {
+                "key":"Ossetisch (Russische F\u00f6deration)",
+                "value":"os_RU"
+              },
+              {
+                "key":"Pandschabisch",
+                "value":"pa"
+              },
+              {
+                "key":"Pandschabisch (Indien)",
+                "value":"pa_Guru_IN"
+              },
+              {
+                "key":"Pandschabisch (Pakistan)",
+                "value":"pa_Arab_PK"
+              },
+              {
+                "key":"Pare",
+                "value":"asa"
+              },
+              {
+                "key":"Pare (Tansania)",
+                "value":"asa_TZ"
+              },
+              {
+                "key":"Paschtu",
+                "value":"ps"
+              },
+              {
+                "key":"Paschtu (Afghanistan)",
+                "value":"ps_AF"
+              },
+              {
+                "key":"Persisch",
+                "value":"fa"
+              },
+              {
+                "key":"Persisch (Afghanistan)",
+                "value":"fa_AF"
+              },
+              {
+                "key":"Persisch (Iran)",
+                "value":"fa_IR"
+              },
+              {
+                "key":"Polnisch",
+                "value":"pl"
+              },
+              {
+                "key":"Polnisch (Polen)",
+                "value":"pl_PL"
+              },
+              {
+                "key":"Portugiesisch",
+                "value":"pt"
+              },
+              {
+                "key":"Portugiesisch (Angola)",
+                "value":"pt_AO"
+              },
+              {
+                "key":"Portugiesisch (Guinea-Bissau)",
+                "value":"pt_GW"
+              },
+              {
+                "key":"Portugiesisch (Kap Verde)",
+                "value":"pt_CV"
+              },
+              {
+                "key":"Portugiesisch (Mosambik)",
+                "value":"pt_MZ"
+              },
+              {
+                "key":"Portugiesisch (Sonderverwaltungszone Macao)",
+                "value":"pt_MO"
+              },
+              {
+                "key":"Portugiesisch (S\u00e3o Tom\u00e9 und Pr\u00edncipe)",
+                "value":"pt_ST"
+              },
+              {
+                "key":"Portugiesisch (Timor-Leste)",
+                "value":"pt_TL"
+              },
+              {
+                "key":"Rombo",
+                "value":"rof"
+              },
+              {
+                "key":"Rombo (Tansania)",
+                "value":"rof_TZ"
+              },
+              {
+                "key":"Ruandisch",
+                "value":"rw"
+              },
+              {
+                "key":"Ruandisch (Ruanda)",
+                "value":"rw_RW"
+              },
+              {
+                "key":"Rum\u00e4nisch",
+                "value":"ro"
+              },
+              {
+                "key":"Rum\u00e4nisch (Rum\u00e4nien)",
+                "value":"ro_RO"
+              },
+              {
+                "key":"Rundi-Sprache",
+                "value":"rn"
+              },
+              {
+                "key":"Rundi-Sprache (Burundi)",
+                "value":"rn_BI"
+              },
+              {
+                "key":"Russisch",
+                "value":"ru"
+              },
+              {
+                "key":"Russisch (Belarus)",
+                "value":"ru_BY"
+              },
+              {
+                "key":"Russisch (Kasachstan)",
+                "value":"ru_KZ"
+              },
+              {
+                "key":"Russisch (Kirgisistan)",
+                "value":"ru_KG"
+              },
+              {
+                "key":"Russisch (Republik Moldau)",
+                "value":"ru_MD"
+              },
+              {
+                "key":"Russisch (Russische F\u00f6deration)",
+                "value":"ru_RU"
+              },
+              {
+                "key":"Russisch (Ukraine)",
+                "value":"ru_UA"
+              },
+              {
+                "key":"Rwa",
+                "value":"rwk"
+              },
+              {
+                "key":"Rwa (Tansania)",
+                "value":"rwk_TZ"
+              },
+              {
+                "key":"R\u00e4toromanisch",
+                "value":"rm"
+              },
+              {
+                "key":"R\u00e4toromanisch (Schweiz)",
+                "value":"rm_CH"
+              },
+              {
+                "key":"Saho",
+                "value":"ssy"
+              },
+              {
+                "key":"Saho (Eritrea)",
+                "value":"ssy_ER"
+              },
+              {
+                "key":"Samburu",
+                "value":"saq"
+              },
+              {
+                "key":"Samburu (Kenia)",
+                "value":"saq_KE"
+              },
+              {
+                "key":"Sango",
+                "value":"sg"
+              },
+              {
+                "key":"Sango (Zentralafrikanische Republik)",
+                "value":"sg_CF"
+              },
+              {
+                "key":"Sangu",
+                "value":"sbp"
+              },
+              {
+                "key":"Sangu (Tansania)",
+                "value":"sbp_TZ"
+              },
+              {
+                "key":"Schottisches G\u00e4lisch",
+                "value":"gd"
+              },
+              {
+                "key":"Schottisches G\u00e4lisch (Vereinigtes K\u00f6nigreich)",
+                "value":"gd_GB"
+              },
+              {
+                "key":"Schwedisch",
+                "value":"sv"
+              },
+              {
+                "key":"Schwedisch (Finnland)",
+                "value":"sv_FI"
+              },
+              {
+                "key":"Schwedisch (Schweden)",
+                "value":"sv_SE"
+              },
+              {
+                "key":"Schwedisch (\u00c5land-Inseln)",
+                "value":"sv_AX"
+              },
+              {
+                "key":"Schweizer Franz\u00f6sisch",
+                "value":"fr_CH"
+              },
+              {
+                "key":"Schweizer Hochdeutsch",
+                "value":"de_CH"
+              },
+              {
+                "key":"Schweizerdeutsch",
+                "value":"gsw"
+              },
+              {
+                "key":"Schweizerdeutsch (Liechtenstein)",
+                "value":"gsw_LI"
+              },
+              {
+                "key":"Schweizerdeutsch (Schweiz)",
+                "value":"gsw_CH"
+              },
+              {
+                "key":"Sena",
+                "value":"seh"
+              },
+              {
+                "key":"Sena (Mosambik)",
+                "value":"seh_MZ"
+              },
+              {
+                "key":"Serbisch",
+                "value":"sr"
+              },
+              {
+                "key":"Serbisch (Bosnien und Herzegowina)",
+                "value":"sr_Cyrl_BA"
+              },
+              {
+                "key":"Serbisch (Bosnien und Herzegowina)",
+                "value":"sr_Latn_BA"
+              },
+              {
+                "key":"Serbisch (Kosovo)",
+                "value":"sr_Cyrl_XK"
+              },
+              {
+                "key":"Serbisch (Kosovo)",
+                "value":"sr_Latn_XK"
+              },
+              {
+                "key":"Serbisch (Montenegro)",
+                "value":"sr_Latn_ME"
+              },
+              {
+                "key":"Serbisch (Montenegro)",
+                "value":"sr_Cyrl_ME"
+              },
+              {
+                "key":"Serbisch (Serbien)",
+                "value":"sr_Cyrl_RS"
+              },
+              {
+                "key":"Serbisch (Serbien)",
+                "value":"sr_Latn_RS"
+              },
+              {
+                "key":"Shambala",
+                "value":"ksb"
+              },
+              {
+                "key":"Shambala (Tansania)",
+                "value":"ksb_TZ"
+              },
+              {
+                "key":"Shona",
+                "value":"sn"
+              },
+              {
+                "key":"Shona (Simbabwe)",
+                "value":"sn_ZW"
+              },
+              {
+                "key":"Sichuan Yi",
+                "value":"ii"
+              },
+              {
+                "key":"Sichuan Yi (China)",
+                "value":"ii_CN"
+              },
+              {
+                "key":"Singhalesisch",
+                "value":"si"
+              },
+              {
+                "key":"Singhalesisch (Sri Lanka)",
+                "value":"si_LK"
+              },
+              {
+                "key":"Slowakisch",
+                "value":"sk"
+              },
+              {
+                "key":"Slowakisch (Slowakei)",
+                "value":"sk_SK"
+              },
+              {
+                "key":"Slowenisch",
+                "value":"sl"
+              },
+              {
+                "key":"Slowenisch (Slowenien)",
+                "value":"sl_SI"
+              },
+              {
+                "key":"Soga",
+                "value":"xog"
+              },
+              {
+                "key":"Soga (Uganda)",
+                "value":"xog_UG"
+              },
+              {
+                "key":"Somali",
+                "value":"so"
+              },
+              {
+                "key":"Somali (Dschibuti)",
+                "value":"so_DJ"
+              },
+              {
+                "key":"Somali (Kenia)",
+                "value":"so_KE"
+              },
+              {
+                "key":"Somali (Somalia)",
+                "value":"so_SO"
+              },
+              {
+                "key":"Somali (\u00c4thiopien)",
+                "value":"so_ET"
+              },
+              {
+                "key":"Spanisch",
+                "value":"es"
+              },
+              {
+                "key":"Spanisch (Argentinien)",
+                "value":"es_AR"
+              },
+              {
+                "key":"Spanisch (Bolivien)",
+                "value":"es_BO"
+              },
+              {
+                "key":"Spanisch (Ceuta und Melilla)",
+                "value":"es_EA"
+              },
+              {
+                "key":"Spanisch (Chile)",
+                "value":"es_CL"
+              },
+              {
+                "key":"Spanisch (Costa Rica)",
+                "value":"es_CR"
+              },
+              {
+                "key":"Spanisch (Dominikanische Republik)",
+                "value":"es_DO"
+              },
+              {
+                "key":"Spanisch (Ecuador)",
+                "value":"es_EC"
+              },
+              {
+                "key":"Spanisch (El Salvador)",
+                "value":"es_SV"
+              },
+              {
+                "key":"Spanisch (Guatemala)",
+                "value":"es_GT"
+              },
+              {
+                "key":"Spanisch (Honduras)",
+                "value":"es_HN"
+              },
+              {
+                "key":"Spanisch (Kanarische Inseln)",
+                "value":"es_IC"
+              },
+              {
+                "key":"Spanisch (Kolumbien)",
+                "value":"es_CO"
+              },
+              {
+                "key":"Spanisch (Kuba)",
+                "value":"es_CU"
+              },
+              {
+                "key":"Spanisch (Nicaragua)",
+                "value":"es_NI"
+              },
+              {
+                "key":"Spanisch (Panama)",
+                "value":"es_PA"
+              },
+              {
+                "key":"Spanisch (Paraguay)",
+                "value":"es_PY"
+              },
+              {
+                "key":"Spanisch (Peru)",
+                "value":"es_PE"
+              },
+              {
+                "key":"Spanisch (Philippinen)",
+                "value":"es_PH"
+              },
+              {
+                "key":"Spanisch (Puerto Rico)",
+                "value":"es_PR"
+              },
+              {
+                "key":"Spanisch (Uruguay)",
+                "value":"es_UY"
+              },
+              {
+                "key":"Spanisch (Venezuela)",
+                "value":"es_VE"
+              },
+              {
+                "key":"Spanisch (Vereinigte Staaten)",
+                "value":"es_US"
+              },
+              {
+                "key":"Spanisch (\u00c4quatorialguinea)",
+                "value":"es_GQ"
+              },
+              {
+                "key":"Suaheli",
+                "value":"sw"
+              },
+              {
+                "key":"Suaheli (Kenia)",
+                "value":"sw_KE"
+              },
+              {
+                "key":"Suaheli (Tansania)",
+                "value":"sw_TZ"
+              },
+              {
+                "key":"Suaheli (Uganda)",
+                "value":"sw_UG"
+              },
+              {
+                "key":"Swazi",
+                "value":"ss"
+              },
+              {
+                "key":"Swazi (Swasiland)",
+                "value":"ss_SZ"
+              },
+              {
+                "key":"Swazi (S\u00fcdafrika)",
+                "value":"ss_ZA"
+              },
+              {
+                "key":"S\u00fcd-Ndebele-Sprache",
+                "value":"nr"
+              },
+              {
+                "key":"S\u00fcd-Ndebele-Sprache (S\u00fcdafrika)",
+                "value":"nr_ZA"
+              },
+              {
+                "key":"S\u00fcd-Sotho-Sprache",
+                "value":"st"
+              },
+              {
+                "key":"S\u00fcd-Sotho-Sprache (Lesotho)",
+                "value":"st_LS"
+              },
+              {
+                "key":"S\u00fcd-Sotho-Sprache (S\u00fcdafrika)",
+                "value":"st_ZA"
+              },
+              {
+                "key":"Tadschikisch",
+                "value":"tg"
+              },
+              {
+                "key":"Tadschikisch (Tadschikistan)",
+                "value":"tg_Cyrl_TJ"
+              },
+              {
+                "key":"Taita",
+                "value":"dav"
+              },
+              {
+                "key":"Taita (Kenia)",
+                "value":"dav_KE"
+              },
+              {
+                "key":"Tamazight",
+                "value":"zgh"
+              },
+              {
+                "key":"Tamazight (Marokko)",
+                "value":"zgh_MA"
+              },
+              {
+                "key":"Tamilisch",
+                "value":"ta"
+              },
+              {
+                "key":"Tamilisch (Indien)",
+                "value":"ta_IN"
+              },
+              {
+                "key":"Tamilisch (Malaysia)",
+                "value":"ta_MY"
+              },
+              {
+                "key":"Tamilisch (Singapur)",
+                "value":"ta_SG"
+              },
+              {
+                "key":"Tamilisch (Sri Lanka)",
+                "value":"ta_LK"
+              },
+              {
+                "key":"Tasawaq",
+                "value":"twq"
+              },
+              {
+                "key":"Tasawaq (Niger)",
+                "value":"twq_NE"
+              },
+              {
+                "key":"Taschelhit",
+                "value":"shi"
+              },
+              {
+                "key":"Taschelhit (Marokko)",
+                "value":"shi_Latn_MA"
+              },
+              {
+                "key":"Taschelhit (Marokko)",
+                "value":"shi_Tfng_MA"
+              },
+              {
+                "key":"Telugu",
+                "value":"te"
+              },
+              {
+                "key":"Telugu (Indien)",
+                "value":"te_IN"
+              },
+              {
+                "key":"Teso",
+                "value":"teo"
+              },
+              {
+                "key":"Teso (Kenia)",
+                "value":"teo_KE"
+              },
+              {
+                "key":"Teso (Uganda)",
+                "value":"teo_UG"
+              },
+              {
+                "key":"Thail\u00e4ndisch",
+                "value":"th"
+              },
+              {
+                "key":"Thail\u00e4ndisch (Thailand)",
+                "value":"th_TH"
+              },
+              {
+                "key":"Tibetisch",
+                "value":"bo"
+              },
+              {
+                "key":"Tibetisch (China)",
+                "value":"bo_CN"
+              },
+              {
+                "key":"Tibetisch (Indien)",
+                "value":"bo_IN"
+              },
+              {
+                "key":"Tigre",
+                "value":"tig"
+              },
+              {
+                "key":"Tigre (Eritrea)",
+                "value":"tig_ER"
+              },
+              {
+                "key":"Tigrinja",
+                "value":"ti"
+              },
+              {
+                "key":"Tigrinja (Eritrea)",
+                "value":"ti_ER"
+              },
+              {
+                "key":"Tigrinja (\u00c4thiopien)",
+                "value":"ti_ET"
+              },
+              {
+                "key":"Tongaisch",
+                "value":"to"
+              },
+              {
+                "key":"Tongaisch (Tonga)",
+                "value":"to_TO"
+              },
+              {
+                "key":"Tschechisch",
+                "value":"cs"
+              },
+              {
+                "key":"Tschechisch (Tschechische Republik)",
+                "value":"cs_CZ"
+              },
+              {
+                "key":"Tsonga",
+                "value":"ts"
+              },
+              {
+                "key":"Tsonga (S\u00fcdafrika)",
+                "value":"ts_ZA"
+              },
+              {
+                "key":"Tswana-Sprache",
+                "value":"tn"
+              },
+              {
+                "key":"Tswana-Sprache (Botsuana)",
+                "value":"tn_BW"
+              },
+              {
+                "key":"Tswana-Sprache (S\u00fcdafrika)",
+                "value":"tn_ZA"
+              },
+              {
+                "key":"T\u00fcrkisch",
+                "value":"tr"
+              },
+              {
+                "key":"T\u00fcrkisch (T\u00fcrkei)",
+                "value":"tr_TR"
+              },
+              {
+                "key":"T\u00fcrkisch (Zypern)",
+                "value":"tr_CY"
+              },
+              {
+                "key":"Uigurisch",
+                "value":"ug"
+              },
+              {
+                "key":"Ukrainisch",
+                "value":"uk"
+              },
+              {
+                "key":"Ukrainisch (Ukraine)",
+                "value":"uk_UA"
+              },
+              {
+                "key":"Ungarisch",
+                "value":"hu"
+              },
+              {
+                "key":"Ungarisch (Ungarn)",
+                "value":"hu_HU"
+              },
+              {
+                "key":"Urdu",
+                "value":"ur"
+              },
+              {
+                "key":"Urdu (Indien)",
+                "value":"ur_IN"
+              },
+              {
+                "key":"Urdu (Pakistan)",
+                "value":"ur_PK"
+              },
+              {
+                "key":"Usbekisch",
+                "value":"uz"
+              },
+              {
+                "key":"Usbekisch (Afghanistan)",
+                "value":"uz_Arab_AF"
+              },
+              {
+                "key":"Usbekisch (Usbekistan)",
+                "value":"uz_Latn_UZ"
+              },
+              {
+                "key":"Usbekisch (Usbekistan)",
+                "value":"uz_Cyrl_UZ"
+              },
+              {
+                "key":"Vai-Sprache",
+                "value":"vai"
+              },
+              {
+                "key":"Vai-Sprache (Liberia)",
+                "value":"vai_Latn_LR"
+              },
+              {
+                "key":"Vai-Sprache (Liberia)",
+                "value":"vai_Vaii_LR"
+              },
+              {
+                "key":"Venda-Sprache",
+                "value":"ve"
+              },
+              {
+                "key":"Venda-Sprache (S\u00fcdafrika)",
+                "value":"ve_ZA"
+              },
+              {
+                "key":"Vietnamesisch",
+                "value":"vi"
+              },
+              {
+                "key":"Vietnamesisch (Vietnam)",
+                "value":"vi_VN"
+              },
+              {
+                "key":"Volap\u00fck",
+                "value":"vo"
+              },
+              {
+                "key":"Volap\u00fck (Welt)",
+                "value":"vo_001"
+              },
+              {
+                "key":"Vunjo",
+                "value":"vun"
+              },
+              {
+                "key":"Vunjo (Tansania)",
+                "value":"vun_TZ"
+              },
+              {
+                "key":"Walamo-Sprache",
+                "value":"wal"
+              },
+              {
+                "key":"Walamo-Sprache (\u00c4thiopien)",
+                "value":"wal_ET"
+              },
+              {
+                "key":"Walisisch",
+                "value":"cy"
+              },
+              {
+                "key":"Walisisch (Vereinigtes K\u00f6nigreich)",
+                "value":"cy_GB"
+              },
+              {
+                "key":"Walser-Dialekte",
+                "value":"wae"
+              },
+              {
+                "key":"Walser-Dialekte (Schweiz)",
+                "value":"wae_CH"
+              },
+              {
+                "key":"Wei\u00dfrussisch",
+                "value":"be"
+              },
+              {
+                "key":"Wei\u00dfrussisch (Belarus)",
+                "value":"be_BY"
+              },
+              {
+                "key":"Westfriesisch",
+                "value":"fy"
+              },
+              {
+                "key":"Westfriesisch (Niederlande)",
+                "value":"fy_NL"
+              },
+              {
+                "key":"Xhosa",
+                "value":"xh"
+              },
+              {
+                "key":"Xhosa (S\u00fcdafrika)",
+                "value":"xh_ZA"
+              },
+              {
+                "key":"Yangben",
+                "value":"yav"
+              },
+              {
+                "key":"Yangben (Kamerun)",
+                "value":"yav_CM"
+              },
+              {
+                "key":"Yoruba",
+                "value":"yo"
+              },
+              {
+                "key":"Yoruba (Benin)",
+                "value":"yo_BJ"
+              },
+              {
+                "key":"Yoruba (Nigeria)",
+                "value":"yo_NG"
+              },
+              {
+                "key":"Zarma",
+                "value":"dje"
+              },
+              {
+                "key":"Zarma (Niger)",
+                "value":"dje_NE"
+              },
+              {
+                "key":"Zentralatlas-Tamazight",
+                "value":"tzm"
+              },
+              {
+                "key":"Zentralatlas-Tamazight (Marokko)",
+                "value":"tzm_Latn_MA"
+              },
+              {
+                "key":"Zulu",
+                "value":"zu"
+              },
+              {
+                "key":"Zulu (S\u00fcdafrika)",
+                "value":"zu_ZA"
+              },
+              {
+                "key":"az_Cyrl",
+                "value":"az_Cyrl"
+              },
+              {
+                "key":"az_Latn",
+                "value":"az_Latn"
+              },
+              {
+                "key":"bs_Cyrl",
+                "value":"bs_Cyrl"
+              },
+              {
+                "key":"bs_Latn",
+                "value":"bs_Latn"
+              },
+              {
+                "key":"en_Dsrt",
+                "value":"en_Dsrt"
+              },
+              {
+                "key":"ha_Latn",
+                "value":"ha_Latn"
+              },
+              {
+                "key":"kk_Cyrl",
+                "value":"kk_Cyrl"
+              },
+              {
+                "key":"ks_Arab",
+                "value":"ks_Arab"
+              },
+              {
+                "key":"ky_Cyrl",
+                "value":"ky_Cyrl"
+              },
+              {
+                "key":"ky_Cyrl_KG",
+                "value":"ky_Cyrl_KG"
+              },
+              {
+                "key":"mn_Cyrl",
+                "value":"mn_Cyrl"
+              },
+              {
+                "key":"ms_Latn",
+                "value":"ms_Latn"
+              },
+              {
+                "key":"ordinals",
+                "value":"ordinals"
+              },
+              {
+                "key":"pa_Arab",
+                "value":"pa_Arab"
+              },
+              {
+                "key":"pa_Guru",
+                "value":"pa_Guru"
+              },
+              {
+                "key":"plurals",
+                "value":"plurals"
+              },
+              {
+                "key":"shi_Latn",
+                "value":"shi_Latn"
+              },
+              {
+                "key":"shi_Tfng",
+                "value":"shi_Tfng"
+              },
+              {
+                "key":"sr_Cyrl",
+                "value":"sr_Cyrl"
+              },
+              {
+                "key":"sr_Latn",
+                "value":"sr_Latn"
+              },
+              {
+                "key":"tg_Cyrl",
+                "value":"tg_Cyrl"
+              },
+              {
+                "key":"tzm_Latn",
+                "value":"tzm_Latn"
+              },
+              {
+                "key":"ug_Arab",
+                "value":"ug_Arab"
+              },
+              {
+                "key":"ug_Arab_CN",
+                "value":"ug_Arab_CN"
+              },
+              {
+                "key":"uz_Arab",
+                "value":"uz_Arab"
+              },
+              {
+                "key":"uz_Cyrl",
+                "value":"uz_Cyrl"
+              },
+              {
+                "key":"uz_Latn",
+                "value":"uz_Latn"
+              },
+              {
+                "key":"vai_Latn",
+                "value":"vai_Latn"
+              },
+              {
+                "key":"vai_Vaii",
+                "value":"vai_Vaii"
+              },
+              {
+                "key":"\u00d6sterreichisches Deutsch",
+                "value":"de_AT"
+              }
+            ],
+            "width":"",
+            "queryColumnType":"varchar(255)",
+            "columnType":"varchar(255)",
+            "phpdocType":"string",
+            "name":"lang",
+            "title":"language",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"objects",
+            "width":"",
+            "height":"",
+            "maxItems":"",
+            "queryColumnType":"text",
+            "phpdocType":"array",
+            "relationType":true,
+            "lazyLoading":false,
+            "classes":[
+              {
+                "classes":"CoreShopOrderItem"
+              }
+            ],
+            "name":"items",
+            "title":"Items",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "columnType":null,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"href",
+            "width":"",
+            "assetUploadPath":"",
+            "relationType":true,
+            "queryColumnType":{
+              "id":"int(11)",
+              "type":"enum('document','asset','object')"
+            },
+            "phpdocType":"\\Pimcore\\Model\\Document\\Page | \\Pimcore\\Model\\Document\\Snippet | \\Pimcore\\Model\\Document | \\Pimcore\\Model\\Asset | \\Pimcore\\Model\\Object\\AbstractObject",
+            "objectsAllowed":true,
+            "assetsAllowed":false,
+            "assetTypes":"",
+            "documentsAllowed":false,
+            "documentTypes":"",
+            "lazyLoading":false,
+            "classes":[
+
+            ],
+            "name":"customer",
+            "title":"Customer",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "columnType":null,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"input",
+            "width":"",
+            "queryColumnType":"varchar",
+            "columnType":"varchar",
+            "columnLength":255,
+            "phpdocType":"string",
+            "regex":"",
+            "name":"shippingAddress",
+            "title":"Shipping Address",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"input",
+            "width":"",
+            "queryColumnType":"varchar",
+            "columnType":"varchar",
+            "columnLength":255,
+            "phpdocType":"string",
+            "regex":"",
+            "name":"billingAddress",
+            "title":"Billing Address",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"input",
+            "width":"",
+            "queryColumnType":"varchar",
+            "columnType":"varchar",
+            "columnLength":255,
+            "phpdocType":"string",
+            "regex":"",
+            "name":"paymentProvider",
+            "title":"Payment Provider",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"input",
+            "width":"",
+            "queryColumnType":"varchar",
+            "columnType":"varchar",
+            "columnLength":255,
+            "phpdocType":"string",
+            "regex":"",
+            "name":"shippingProvider",
+            "title":"Shipping Provider",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"numeric",
+            "width":"",
+            "defaultValue":null,
+            "queryColumnType":"double",
+            "columnType":"double",
+            "phpdocType":"float",
+            "integer":false,
+            "unsigned":false,
+            "minValue":"",
+            "maxValue":"",
+            "decimalPrecision":"",
+            "name":"discount",
+            "title":"Discount",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"numeric",
+            "width":"",
+            "defaultValue":null,
+            "queryColumnType":"double",
+            "columnType":"double",
+            "phpdocType":"float",
+            "integer":false,
+            "unsigned":false,
+            "minValue":"",
+            "maxValue":"",
+            "decimalPrecision":"",
+            "name":"shipping",
+            "title":"Shipping",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"objects",
+            "width":"",
+            "height":"",
+            "maxItems":"",
+            "queryColumnType":"text",
+            "phpdocType":"array",
+            "relationType":true,
+            "lazyLoading":false,
+            "classes":[
+              {
+                "classes":"CoreShopPayment"
+              }
+            ],
+            "name":"payments",
+            "title":"Payment",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "columnType":null,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"objectbricks",
+            "phpdocType":"\\Pimcore\\Model\\Object\\Objectbrick",
+            "allowedTypes":[
+
+            ],
+            "name":"extraInformation",
+            "title":"extraInformation",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "columnType":null,
+            "queryColumnType":null,
+            "relationType":false,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          },
+          {
+            "fieldtype":"href",
+            "width":"",
+            "assetUploadPath":"",
+            "relationType":true,
+            "queryColumnType":{
+              "id":"int(11)",
+              "type":"enum('document','asset','object')"
+            },
+            "phpdocType":"\\Pimcore\\Model\\Document\\Page | \\Pimcore\\Model\\Document\\Snippet | \\Pimcore\\Model\\Document | \\Pimcore\\Model\\Asset | \\Pimcore\\Model\\Object\\AbstractObject",
+            "objectsAllowed":true,
+            "assetsAllowed":false,
+            "assetTypes":"",
+            "documentsAllowed":false,
+            "documentTypes":"",
+            "lazyLoading":false,
+            "classes":[
+              {
+                "classes":"CoreShopCartRule"
+              }
+            ],
+            "name":"cartRule",
+            "title":"Cart Rule",
+            "tooltip":"",
+            "mandatory":false,
+            "noteditable":false,
+            "index":false,
+            "locked":false,
+            "style":"",
+            "permissions":null,
+            "datatype":"data",
+            "columnType":null,
+            "invisible":false,
+            "visibleGridView":false,
+            "visibleSearch":false
+          }
+        ],
+        "locked":false
+      }
+    ],
+    "locked":null
+  },
+  "icon":null,
+  "previewUrl":null,
+  "propertyVisibility":{
+    "grid":{
+      "id":true,
+      "path":true,
+      "published":true,
+      "modificationDate":true,
+      "creationDate":true
+    },
+    "search":{
+      "id":true,
+      "path":true,
+      "published":true,
+      "modificationDate":true,
+      "creationDate":true
+    }
+  }
+}
