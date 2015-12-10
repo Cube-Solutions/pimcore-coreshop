@@ -36,7 +36,7 @@ class Install
         $sql = file_get_contents($file);
 
         $mysqli = $db->getConnection();
-        return $mysqli->multi_query($sql);
+        return $mysqli->query($sql);
     }
 
     public function createClass($className)

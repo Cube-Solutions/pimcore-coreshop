@@ -26,6 +26,13 @@ use Pimcore\Model\Object\CoreShopCartItem;
 use Pimcore\Model\Object\CoreShopUser;
 use Pimcore\Model\Object\Service;
 
+/**
+ * Class Cart
+ *
+ * @author Gabriel Somoza <gabriel@strategery.io>
+ *
+ * @method CoreShopCartItem[] getItems()
+ */
 class Cart extends Base {
 
     /**
@@ -124,7 +131,9 @@ class Cart extends Base {
         $session = Tool::getSession();
 
         //check for existing shipping
-        if(array_key_exists("shippingProvider", $session->order) && $session->order['deliveryProvider'] instanceof Shipping) {
+        if (null !== $session->order
+            && array_key_exists("shippingProvider", $session->order)
+            && $session->order['deliveryProvider'] instanceof Shipping) {
             return $session->order['shippingProvider']->getShipping($this);
         }
 

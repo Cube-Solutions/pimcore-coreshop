@@ -23,6 +23,13 @@ use Pimcore\Model\Asset\Image;
 use CoreShop\Tool;
 use CoreShop\Config;
 
+/**
+ * Class Product
+ *
+ * @author Gabriel Somoza <gabriel@strategery.io>
+ *
+ * @method string getName()
+ */
 class Product extends Base {
 
     /**

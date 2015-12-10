@@ -18,6 +18,13 @@ namespace CoreShop\Model;
 use Pimcore\Model\Object\CoreShopCart;
 use CoreShop\Tool;
 
+/**
+ * Class CartItem
+ *
+ * @author Gabriel Somoza <gabriel@strategery.io>
+ *
+ * @method \Pimcore\Model\Object\CoreShopProduct getProduct()
+ */
 class CartItem extends Base {
 
     /**

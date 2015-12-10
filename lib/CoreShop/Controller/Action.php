@@ -15,6 +15,7 @@
 
 namespace CoreShop\Controller;
 
+use CoreShop\Model\Cart;
 use CoreShop\Plugin;
 use CoreShop\Tool;
 use CoreShop\Model\Currency;
@@ -28,6 +29,9 @@ class Action extends \Website\Controller\Action {
         Zend_Session_Namespace
     */
     protected $cartSession;
+
+    /** @var Cart */
+    protected $cart;
     
     public function init()
     {
