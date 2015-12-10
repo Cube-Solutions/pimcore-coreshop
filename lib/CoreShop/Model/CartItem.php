@@ -24,6 +24,7 @@ use CoreShop\Tool;
  * @author Gabriel Somoza <gabriel@strategery.io>
  *
  * @method \Pimcore\Model\Object\CoreShopProduct getProduct()
+ * @method float getAmount()
  */
 class CartItem extends Base {
 
