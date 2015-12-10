@@ -15,6 +15,7 @@
 
 use CoreShop\Controller\Action;
 
+use CoreShop\Exception;
 use Pimcore\Model\Object\CoreShopProduct;
 use Pimcore\Model\Object\CoreShopCategory;
 
@@ -37,7 +38,7 @@ class Coreshop_ProductController extends Action {
         }
         else
         {
-            throw new CoreShop\Exception(sprintf('Product with id "%s" not found', $id));
+            throw new Exception(sprintf('Product with id "%s" not found', $id));
         }
     }
     

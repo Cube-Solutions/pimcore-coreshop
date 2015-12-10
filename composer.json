@@ -14,5 +14,10 @@
     "require": {
         "pimcore/installer-plugin": ">=1",
         "geoip/geoip": "~1.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoreShop\\": "./lib/CoreShop"
+        }
     }
 }
