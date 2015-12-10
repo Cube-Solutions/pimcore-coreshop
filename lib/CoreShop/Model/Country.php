@@ -182,6 +182,9 @@ class Country extends AbstractModel {
      */
     public function getCurrency()
     {
+        if (!$this->currency && $this->getCurrency__Id()) {
+            $this->currency = Currency::getById($this->getCurrency__Id());
+        }
         return $this->currency;
     }
 

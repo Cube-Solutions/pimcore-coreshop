@@ -23,6 +23,7 @@ use Pimcore\Mail;
 use CoreShop\Model\Currency;
 use CoreShop\Model\Country;
 
+use Pimcore\Model\Object\CoreShopUser;
 use Pimcore\Tool\Session;
 
 class Tool {
