@@ -15,7 +15,7 @@
 
 use CoreShop\Controller\Action;
 
-class CoreShop_IndexController extends Action
+class Coreshop_IndexController extends Action
 {
     public function indexAction() {
 

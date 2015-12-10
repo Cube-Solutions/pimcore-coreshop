@@ -15,7 +15,7 @@
 
 use CoreShop\Controller\Action;
 
-class CoreShop_EmailController extends Action
+class Coreshop_EmailController extends Action
 {
     public function init()
     {

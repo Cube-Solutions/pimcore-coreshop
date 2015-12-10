@@ -25,7 +25,7 @@ use Pimcore\Model\Object\CoreShopOrderState;
 use Pimcore\Model\Object\CoreShopUser;
 use Pimcore\Model\Object\Service;
 
-class CoreShop_CheckoutController extends Action 
+class Coreshop_CheckoutController extends Action
 {
     public function preDispatch() {
         parent::preDispatch();

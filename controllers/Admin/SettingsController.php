@@ -22,7 +22,7 @@ use CoreShop\Model;
 
 use Pimcore\Controller\Action\Admin;
 
-class CoreShop_Admin_SettingsController extends Admin
+class Coreshop_Admin_SettingsController extends Admin
 {
     public function getAction()
     {

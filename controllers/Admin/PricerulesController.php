@@ -21,7 +21,7 @@ use Pimcore\Controller\Action\Admin;
 
 use Pimcore\Tool as PimTool;
 
-class CoreShop_Admin_PricerulesController extends Admin
+class Coreshop_Admin_PricerulesController extends Admin
 {
     public function listAction() {
         $list = new PriceRule\Listing();

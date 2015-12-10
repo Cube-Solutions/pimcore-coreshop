@@ -22,7 +22,7 @@ use Pimcore\Model\Object\CoreShopProduct;
 
 use CoreShop\Model\PriceRule;
 
-class CoreShop_CartController extends Action {
+class Coreshop_CartController extends Action {
     
     public function init()
     {

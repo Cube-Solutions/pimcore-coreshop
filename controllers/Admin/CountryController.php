@@ -19,7 +19,7 @@ use CoreShop\Model\Country;
 
 use Pimcore\Controller\Action\Admin;
 
-class CoreShop_Admin_CountryController extends Admin
+class Coreshop_Admin_CountryController extends Admin
 {
     public function init() {
 

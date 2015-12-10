@@ -21,7 +21,7 @@ use Pimcore\Model\Object\CoreShopOrder;
 
 use Pimcore\Controller\Action\Admin;
 
-class CoreShop_Admin_TestController extends Admin
+class Coreshop_Admin_TestController extends Admin
 {
     public function testSelectObjectAction(){
         $orderId = 2082;

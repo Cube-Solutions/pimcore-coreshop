@@ -17,7 +17,7 @@ use CoreShop\Controller\Action;
 
 use Pimcore\Model\Object\CoreShopProduct;
 
-class CoreShop_SearchController extends Action
+class Coreshop_SearchController extends Action
 {
     public function searchAction()
     {

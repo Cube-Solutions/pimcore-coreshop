@@ -20,7 +20,7 @@ use CoreShop\Model\Currency;
 
 use Pimcore\Controller\Action\Admin;
 
-class CoreShop_Admin_CurrencyController extends Admin
+class Coreshop_Admin_CurrencyController extends Admin
 {
     public function init() {
 

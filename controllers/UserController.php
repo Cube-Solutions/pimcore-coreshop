@@ -24,7 +24,7 @@ use Pimcore\Model\Object\CoreShopCart;
 use Pimcore\Model\Object\Fieldcollection\Data\CoreShopUserAddress;
 use Pimcore\Model\Object;
 
-class CoreShop_UserController extends Action 
+class Coreshop_UserController extends Action
 {
     public function preDispatch() {
         parent::preDispatch();

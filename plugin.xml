@@ -28,7 +28,8 @@
 
         <!-- namespaces to register with autoloader-->
         <pluginNamespaces>
-            <namespace>CoreShop</namespace>
+            <namespace>CoreShop</namespace> <!--for the library (PSR-0)-->
+            <namespace>CoreShop_</namespace> <!--for the controllers (old ZF1 style)-->
         </pluginNamespaces>
 
         <pluginJsPaths>

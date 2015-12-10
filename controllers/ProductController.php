@@ -18,7 +18,7 @@ use CoreShop\Controller\Action;
 use Pimcore\Model\Object\CoreShopProduct;
 use Pimcore\Model\Object\CoreShopCategory;
 
-class CoreShop_ProductController extends Action {
+class Coreshop_ProductController extends Action {
     
     public function detailAction () {
         $id = $this->getParam("product");
