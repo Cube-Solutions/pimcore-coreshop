@@ -38,7 +38,7 @@ class Coreshop_CartController extends Action {
         $this->prepareCart();
     }
     
-    public function addAction () 
+    public function addAction()
     {
         $product_id = $this->getParam("product", null);
         $amount = $this->getParam("amount", 1);
